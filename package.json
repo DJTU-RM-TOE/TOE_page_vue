@@ -12,8 +12,14 @@
   "license": "ISC",
   "devDependencies": {
     "@vuepress/bundler-vite": "next",
+    "@vuepress/plugin-redirect": "latest",
+    "@vuepress/plugin-search": "next",
     "@vuepress/theme-default": "next",
     "sass-embedded": "^1.79.3",
     "vuepress": "next"
+  },
+  "dependencies": {
+    "@vueuse/core": "^11.1.0",
+    "vuepress-theme-hope": "^2.0.0-rc.56"
   }
 }
