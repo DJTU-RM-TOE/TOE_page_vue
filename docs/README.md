@@ -8,16 +8,16 @@ tagline: 网站主页✨
 heroFullScreen: true
 actions:
   - text: 项目
-    link: ./get-started/
+    link: ./projects/
     icon: signs-post
 
   - text: 资料站
     icon: lightbulb
-    link: ./guide/
+    link: ./learning/
 
-  - text: 联系我们
+  - text: Github主页
     icon: star
-    link: ./demo/
+    link: https://github.com/DJTU-RM-TOE
 
 highlights:
 
