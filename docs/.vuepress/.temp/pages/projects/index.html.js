@@ -1,5 +1,5 @@
 import comp from "/home/evence/my_project/TOE_page_vue/docs/.vuepress/.temp/pages/projects/index.html.vue"
-const data = JSON.parse("{\"path\":\"/projects/\",\"title\":\"Projects\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Projects\",\"article\":false,\"feed\":false,\"sitemap\":false},\"headers\":[],\"readingTime\":{\"minutes\":0,\"words\":1},\"filePathRelative\":null,\"excerpt\":\"\"}")
+const data = JSON.parse("{\"path\":\"/projects/\",\"title\":\"项目\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"readingTime\":{\"minutes\":0.01,\"words\":2},\"filePathRelative\":\"projects/README.md\",\"excerpt\":\"\\n\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

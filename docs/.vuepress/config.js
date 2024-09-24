@@ -5,7 +5,7 @@ import { hopeTheme } from 'vuepress-theme-hope'
 
 export default defineUserConfig({
   bundler: viteBundler(),
-  
+
   theme: hopeTheme({
     //引入icon
     iconAssets: [
@@ -17,8 +17,8 @@ export default defineUserConfig({
     //sidebar: 'auto',
     logo: "/images/toe_logo.svg",
 
-    themeColor:true,
-    
+    themeColor: true,
+
     plugins: {
       searchPro: true,
       // searchPro: {
@@ -47,17 +47,22 @@ export default defineUserConfig({
         icon: "book",
         // 仅在 `/zh/guide/` 激活
       },
-
-      //{ text: "配置", link: "/zh/config/README.md", icon: "config" },
-      //{
-      //  text: "常见问题",
-      //  link: "/zh/faq.md",
-      //  icon: "circle-question",
-      //  // 会在 `/zh/faq` 开头的路径激活
-      //  // 所以当你前往 `/zh/faq/xxx.html` 时也会激活
-      //  activeMatch: "^/zh/faq",
-      //},
     ],
+
+    sidebar: {
+      "/learning/": [
+        "",
+        "Summary_of_Excellent_Bloggers_and_Tutorials",
+        "course_outline",
+        "How_to_ask_questions",
+        "how_to_learn_by_youself",
+      ],
+
+      "/projects/": [
+        "",
+        "OpenSource"
+      ],
+    },
   }),
 
   title: 'TOE Document',
