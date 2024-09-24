@@ -1,0 +1,16 @@
+import comp from "/home/evence/my_project/TOE_page_vue/docs/.vuepress/.temp/pages/learning/main.html.vue"
+const data = JSON.parse("{\"path\":\"/learning/main.html\",\"title\":\"TOE实验室资源站\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"实验室开源汇总\",\"slug\":\"实验室开源汇总\",\"link\":\"#实验室开源汇总\",\"children\":[{\"level\":3,\"title\":\"机械\",\"slug\":\"机械\",\"link\":\"#机械\",\"children\":[]},{\"level\":3,\"title\":\"电控\",\"slug\":\"电控\",\"link\":\"#电控\",\"children\":[]},{\"level\":3,\"title\":\"视觉\",\"slug\":\"视觉\",\"link\":\"#视觉\",\"children\":[]}]},{\"level\":2,\"title\":\"优秀博主汇总\",\"slug\":\"优秀博主汇总\",\"link\":\"#优秀博主汇总\",\"children\":[{\"level\":3,\"title\":\"bilibili博主\",\"slug\":\"bilibili博主\",\"link\":\"#bilibili博主\",\"children\":[]},{\"level\":3,\"title\":\"知乎博主\",\"slug\":\"知乎博主\",\"link\":\"#知乎博主\",\"children\":[]}]},{\"level\":2,\"title\":\"优秀教程汇总\",\"slug\":\"优秀教程汇总\",\"link\":\"#优秀教程汇总\",\"children\":[{\"level\":3,\"title\":\"Solidworks\",\"slug\":\"solidworks\",\"link\":\"#solidworks\",\"children\":[]},{\"level\":3,\"title\":\"C语言基础\",\"slug\":\"c语言基础\",\"link\":\"#c语言基础\",\"children\":[]},{\"level\":3,\"title\":\"Python基础\",\"slug\":\"python基础\",\"link\":\"#python基础\",\"children\":[]},{\"level\":3,\"title\":\"OpenCV\",\"slug\":\"opencv\",\"link\":\"#opencv\",\"children\":[]},{\"level\":3,\"title\":\"ROS2\",\"slug\":\"ros2\",\"link\":\"#ros2\",\"children\":[]},{\"level\":3,\"title\":\"STM32\",\"slug\":\"stm32\",\"link\":\"#stm32\",\"children\":[]},{\"level\":3,\"title\":\"MarkDown\",\"slug\":\"markdown\",\"link\":\"#markdown\",\"children\":[]},{\"level\":3,\"title\":\"LINUX相关\",\"slug\":\"linux相关\",\"link\":\"#linux相关\",\"children\":[]},{\"level\":3,\"title\":\"控制相关\",\"slug\":\"控制相关\",\"link\":\"#控制相关\",\"children\":[]},{\"level\":3,\"title\":\"绝大多数的软件可以在这里找到\",\"slug\":\"绝大多数的软件可以在这里找到\",\"link\":\"#绝大多数的软件可以在这里找到\",\"children\":[]}]}],\"readingTime\":{\"minutes\":2.58,\"words\":775},\"filePathRelative\":\"learning/main.md\",\"excerpt\":\"\\n<h2>实验室开源汇总</h2>\\n<h3>机械</h3>\\n<ul>\\n<li><a href=\\\"https://gitee.com/Yaohui-He/RM_robot\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">robomaster2023工程机器人</a></li>\\n<li><a href=\\\"https://bbs.robomaster.com/forum.php?mod=viewthread&amp;tid=12298\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">RM2021-大连交通大学-纵维立方TOE战队-哨兵机器人</a></li>\\n<li><a href=\\\"https://bbs.robomaster.com/forum.php?mod=viewthread&amp;tid=12280\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">RM2021-大连交通大学-纵维立方TOE战队-工程机器人</a></li>\\n<li><a href=\\\"https://bbs.robomaster.com/forum.php?mod=viewthread&amp;tid=12305\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">RM2021-大连交通大学-纵维立方TOE战队-飞镖机器人</a></li>\\n<li><a href=\\\"https://bbs.robomaster.com/forum.php?mod=viewthread&amp;tid=12299\\\" target=\\\"_blank\\\" rel=\\\"noopener noreferrer\\\">RM2021-大连交通大学-纵维立方TOE战队-步兵机器人</a></li>\\n</ul>\"}")
+export { comp, data }
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}

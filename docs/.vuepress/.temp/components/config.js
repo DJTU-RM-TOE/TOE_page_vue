@@ -1,5 +1,6 @@
 import { hasGlobalComponent } from "/home/evence/my_project/TOE_page_vue/node_modules/.store/@vuepress+helper@2.0.0-rc.47/node_modules/@vuepress/helper/lib/client/index.js";
 
+import { useStyleTag } from "/home/evence/my_project/TOE_page_vue/node_modules/.store/@vueuse+core@11.1.0/node_modules/@vueuse/core/index.mjs";
 import Badge from "/home/evence/my_project/TOE_page_vue/node_modules/.store/vuepress-plugin-components@2.0.0-rc.54/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
 import FontIcon from "/home/evence/my_project/TOE_page_vue/node_modules/.store/vuepress-plugin-components@2.0.0-rc.54/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
 
@@ -12,7 +13,9 @@ export default {
     
   },
   setup: () => {
-
+    useStyleTag(`\
+@import url("//at.alicdn.com/t/c/font_4693668_2lpv5x1ucb3.css");
+`);
   },
   rootComponents: [
 

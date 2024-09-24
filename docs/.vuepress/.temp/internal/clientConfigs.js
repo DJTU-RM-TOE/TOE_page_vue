@@ -11,8 +11,9 @@ import * as clientConfig9 from '/home/evence/my_project/TOE_page_vue/node_module
 import * as clientConfig10 from '/home/evence/my_project/TOE_page_vue/docs/.vuepress/.temp/markdown-image/client.js'
 import * as clientConfig11 from '/home/evence/my_project/TOE_page_vue/docs/.vuepress/.temp/md-enhance/config.js'
 import * as clientConfig12 from '/home/evence/my_project/TOE_page_vue/node_modules/.store/@vuepress+plugin-photo-swipe@2.0.0-rc.47/node_modules/@vuepress/plugin-photo-swipe/lib/client/config.js'
-import * as clientConfig13 from '/home/evence/my_project/TOE_page_vue/node_modules/.store/@vuepress+plugin-redirect@2.0.0-rc.8/node_modules/@vuepress/plugin-redirect/lib/client/config.js'
-import * as clientConfig14 from '/home/evence/my_project/TOE_page_vue/docs/.vuepress/.temp/theme-hope/config.js'
+import * as clientConfig13 from '/home/evence/my_project/TOE_page_vue/node_modules/.store/vuepress-plugin-search-pro@2.0.0-rc.54/node_modules/vuepress-plugin-search-pro/lib/client/config.js'
+import * as clientConfig14 from '/home/evence/my_project/TOE_page_vue/node_modules/.store/@vuepress+plugin-redirect@2.0.0-rc.8/node_modules/@vuepress/plugin-redirect/lib/client/config.js'
+import * as clientConfig15 from '/home/evence/my_project/TOE_page_vue/docs/.vuepress/.temp/theme-hope/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -30,4 +31,5 @@ export const clientConfigs = [
   clientConfig12,
   clientConfig13,
   clientConfig14,
+  clientConfig15,
 ].map((m) => m.default).filter(Boolean)
