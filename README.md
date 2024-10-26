@@ -5,7 +5,7 @@
 - 只需要把.md文件提上issues就行
 
 ## vuepress的安装
-
+### 环境安装
 - 由于要求nodejs18版本，添加[官网源](https://nodejs.org/zh-cn/download/package-manager)
 
 ```
@@ -17,4 +17,8 @@ nvm install 20
 ```
 node -v
 ```
+### 依赖安装
+
+npm install slimsearch
 ## vuepress的使用
+
