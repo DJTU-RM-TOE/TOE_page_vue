@@ -1,4 +1,4 @@
-import comp from "/home/evence/my_project/TOE_page_vue/docs/.vuepress/.temp/pages/404.html.vue"
+import comp from "/home/evence/code_file/web/TOE_page_vue/docs/.vuepress/.temp/pages/404.html.vue"
 const data = JSON.parse("{\"path\":\"/404.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{\"layout\":\"NotFound\"},\"headers\":[],\"readingTime\":{\"minutes\":0.01,\"words\":3},\"filePathRelative\":null,\"excerpt\":\"<p>404 Not Found</p>\\n\"}")
 export { comp, data }
 
