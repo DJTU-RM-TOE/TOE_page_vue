@@ -1,1 +1,0 @@
-export const store = ["/","/learning/How_to_ask_questions.html","/learning/","/learning/Summary_of_Excellent_Bloggers_and_Tutorials.html","/learning/course_outline.html","/learning/how_to_learn_by_youself.html","/projects/OpenSource.html","/projects/","/404.html"];
